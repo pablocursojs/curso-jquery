@@ -1,0 +1,16 @@
+div{
+	width: 300px;
+	height: 300px;
+	margin: 100px auto;
+	padding: 10px;
+	background-color: #e5e5e5;
+	text-align: center;
+}
+
+p{
+	font-weight: bold;
+}
+
+span{
+	font-weight: normal;
+}
