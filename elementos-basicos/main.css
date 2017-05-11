@@ -1,0 +1,51 @@
+body{
+	background-color: #e5e5e5;
+}
+
+section{
+	margin: 100px auto;
+	text-align: center;
+}
+
+button{
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+}
+
+div{
+	margin-bottom: 20px;
+}
+
+div:nth-child(2){
+	width: 200px;
+	height: 200px;
+}
+
+table {
+	display: inline-block;
+  border-collapse: collapse;
+  width: 120px;
+  background-color: #fff;
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#agregar{
+	background-color: #009b24;
+}
+
+#borrar{
+	background-color: #9b0303;
+}
+
+#segundo{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+}
