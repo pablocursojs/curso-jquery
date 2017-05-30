@@ -1,0 +1,45 @@
+.text-center{
+	margin-top: 400px;
+}
+
+.content{
+	display: inline-block;
+	position: relative;
+}
+
+.btn-lg{
+	border-radius: 50%;
+	padding: 20px;
+	background-color: #c6c6d3;
+}
+
+.btn-lg:hover{
+	background-color: #000;
+	color: #c6c6d3;
+}
+
+#itemTop, #itemRight, #itemBottom, #itemLeft{
+	opacity: 0;
+	position: relative;
+	transition: all 1s;
+}
+
+#itemTop{
+	background-color: #2962ff;
+	left: -65px;
+	top: 0;
+}
+
+#itemRight{
+	background-color: #ff6d00;
+	top: 0;
+}
+
+#itemBottom{
+	background-color: #00c853;
+	
+}
+
+#itemLeft{
+	background-color: #aa00ff;
+}
