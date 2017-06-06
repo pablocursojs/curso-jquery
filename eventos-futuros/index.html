@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Eventos futuros</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Listado de productos</h1>
+				</div>
+				<div class="col-xs-4">
+					<div class="form-group">
+						<label for="nombre">Nombre</label>
+						<input type="text" id="nombre">
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="form-group">
+						<label for="cantidad">Cantidad</label>
+						<input type="text" id="cantidad">
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="form-group">
+						<label for="precio">Precio</label>
+						<input type="text" id="precio">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<button type="button" class="btn btn-info btn-block" id="btn-agregar">Agregar</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Nombre</th>
+								<th>Cantidad</th>
+								<th>Precio</th>
+							</tr>
+						</thead>
+						<tbody id="lista-productos"></tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+</html>
