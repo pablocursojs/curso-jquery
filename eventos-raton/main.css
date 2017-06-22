@@ -1,0 +1,8 @@
+.container{
+	margin-top: 100px;
+}
+
+#ficha{
+	display: none;
+	position: absolute;
+}
